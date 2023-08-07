@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    width: 30vw;
+    height: 45vh;
+    border-radius: 20px;
+    position: relative;
+    left: 35vw;
+    top: 50vh;
+}
+.card1{
+    background-color: hsl(213, 19%, 18%);
+    width: 30vw;
+    height: 45vh;
+    border-radius: 20px;
+    position: relative;
+    left: 35vw;
+    top: 10vh;
+}
+
+p{
+    position: relative;
+    top: 25vh;
+    color: hsl(217, 12%,63%);
+}
+
+h1{
+    color: white;
+}
+.circulo{
+    width:3svw;
+    height: 6vh;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    color: hsl(217, 12%,63%);
+}
+
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 70px;
+    border-style: none;
+}
