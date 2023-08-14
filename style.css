@@ -2,49 +2,102 @@ body{
     background-color: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
 }
+.container {
+  display: flex;
+  position: relative;
+  top: 6vh;
+}
+.container{
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.circulo {
+  width: 30px;
+  height: 30px;
+
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px; /* Adicione o espaçamento desejado */
+}
+
+
+.card1{
+    background-color: hsl(213, 19%, 18%);
+  width: 30vw;
+height: 45vh;
+
+border-radius: 20px;
+position: relative;
+left: 35vw;
+top: 10vh;
+}
 
 .card{
     background-color: hsl(213, 19%, 18%);
-    width: 30vw;
-    height: 45vh;
-    border-radius: 20px;
-    position: relative;
-    left: 35vw;
-    top: 50vh;
-}
-.card1{
-    background-color: hsl(213, 19%, 18%);
-    width: 30vw;
-    height: 45vh;
-    border-radius: 20px;
-    position: relative;
-    left: 35vw;
-    top: 10vh;
-}
+  width: 30vw;
+height: 45vh;
 
+border-radius: 20px;
+position: relative;
+left: 35vw;
+top: 50vh;
+}
 p{
-    position: relative;
-    top: 25vh;
-    color: hsl(217, 12%,63%);
+  position: relative;  
+  
+  color: hsl(217, 12%, 63%);
+
 }
 
+.texto{
+    position: relative;
+    left: 1.5vw;
+    top: 2vh;
+}
 h1{
     color: white;
 }
 .circulo{
-    width:3svw;
+    width: 3vw;
     height: 6vh;
-    background-color: hsl(216, 12%, 54%);
+    background-color:hsl(216, 12%, 54%);
     border-radius: 100%;
-    color: hsl(217, 12%,63%);
+    position: relative;
+    right: 3vh;
+    border: 6vw;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-button{
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-    width: 20vw;
-    height: 5vh;
-    border-radius: 70px;
-    border-style: none;
+button {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 70px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  justify-content: centerSS;
+  position: relative;
+  top: 10vh;
+  left: 4.7vw;
+}
+
+#estrela{
+    position: relative;
+    left: 1.5vw;
+    top: 2vh;
 }
